@@ -1,0 +1,22 @@
+{
+    "name": "sehrgut/mb-str-pad",
+    "description": "Multibyte-capable alternative to php's builtin str_pad() function",
+    "type": "library",
+    "license": "Public Domain",
+    "authors": [
+        {
+            "name": "Joseph Paul",
+            "email": "joseph@sehrgute.software"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~7.0"
+    },
+    "autoload": {
+        "files": ["src/mb-str-pad.php"]
+    },
+    "scripts": {
+        "test": ["vendor/bin/phpunit"]
+    }
+}

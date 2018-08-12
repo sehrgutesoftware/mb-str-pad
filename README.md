@@ -1,5 +1,7 @@
 # mb_str_pad()
 
+[![Travis Build Status](https://img.shields.io/travis/sehrgutesoftware/mb-str-pad/master.svg?style=flat-square)](https://travis-ci.org/sehrgutesoftware/mb-str-pad)
+
 > Multibyte-capable alternative to php's builtin str_pad() function
 
 It has exactly the same interface as the original `str_pad()` function, which is documented here: [https://secure.php.net/manual/en/function.str-pad.php](https://secure.php.net/manual/en/function.str-pad.php)

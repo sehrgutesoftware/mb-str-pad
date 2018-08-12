@@ -11,7 +11,7 @@
     ],
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "~7.0"
+        "phpunit/phpunit": "~6.0"
     },
     "autoload": {
         "files": ["src/mb-str-pad.php"]

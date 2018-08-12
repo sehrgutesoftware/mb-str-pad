@@ -2,7 +2,7 @@
     "name": "sehrgut/mb-str-pad",
     "description": "Multibyte-capable alternative to php's builtin str_pad() function",
     "type": "library",
-    "license": "Public Domain",
+    "license": "CC0-1.0",
     "authors": [
         {
             "name": "Joseph Paul",

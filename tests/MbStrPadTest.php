@@ -55,6 +55,13 @@ class MbStrPadTest extends TestCase
     public function test_throws_an_exception_if_pad_type_is_invalid()
     {
         $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('Invalid value for argument $pad_type');
+
         mb_str_pad('padmenot', 10, ' ', 100);
+    }
+
+    public function test_input_string_is_bail_early()
+    {
+        $this->assertEquals('bail_early', mb_str_pad('bail_early', 10));
     }
 }
